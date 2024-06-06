@@ -52,7 +52,11 @@ img {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-top: 20px; /* Optional: Add some space above the links */
+  position: fixed;  /* Position the container */
+  bottom: 20px;    /* Place it 20px from the bottom */
+  left: 50%;       /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for centering */
+  width: 100%;     /* Make it take full width (optional) */
 }
 
 a {
