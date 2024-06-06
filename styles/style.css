@@ -48,18 +48,21 @@ img {
   opacity: 0;
 }
 
+#links-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px; /* Optional: Add some space above the links */
+}
+
 a {
   text-decoration: none;
   color: black;
-  position: absolute;
-  bottom: 0;
-  margin: 5px;
+  /* position: absolute;  Remove this line */
+  bottom: 0;          /* Remove this line */
+  margin: 5px;       /* Remove this line */
 }
-#links-container {
-  display: flex; /* Use flexbox for easy alignment */
-  justify-content: center; /* Center the links horizontally */
-  gap: 20px; /* Add some space between the links */
-}
+
 a:hover {
   color: white;
 }
