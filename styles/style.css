@@ -55,7 +55,11 @@ a {
   bottom: 0;
   margin: 5px;
 }
-
+#links-container {
+  display: flex; /* Use flexbox for easy alignment */
+  justify-content: center; /* Center the links horizontally */
+  gap: 20px; /* Add some space between the links */
+}
 a:hover {
   color: white;
 }
